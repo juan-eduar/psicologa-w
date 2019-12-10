@@ -1,0 +1,162 @@
+.section{
+
+    position: relative;
+}
+.section-content{
+    display: grid;
+    grid-template-columns: 160px 1fr;
+}
+.container-fondo{
+    align-self: flex-end;
+}
+.fondo{
+    width: 100%;
+    height: 441px;
+
+}
+.imagen-persona{
+    width: 100%;
+    height: 135px;
+    padding-top: 20px;
+}
+.barra{
+    height: 83vh;
+
+    width: 100%;
+}
+.container-persona{
+
+    z-index: -1;
+    background: #03438a;
+    height: 112px;
+    padding-top: 5px;
+}
+.container-navbar{
+    width: 10rem;
+    background: #034389;
+}
+.container-contacto__content{
+   display: flex;
+   justify-content: flex-end;
+   position: absolute;
+   right: 0px;
+   padding-top: 15px;
+}
+.logo-redes__facebook{
+    padding-right: 50px;
+}
+.logo-redes__instagram{
+    padding-right: 50px;
+}
+.btn-blue{
+    background: #03438a;
+    color: white;
+    border-radius: 0px;
+    font-size: 16px;
+    padding: .375rem 1.75rem;
+}
+.container-contacto{
+    width: 93%;
+    position: relative;
+}
+.container-nombre{
+    position: absolute;
+    right: 53%;
+    top: 9%;
+}
+.text-nombre{
+    font-size: 23px;
+    
+
+}
+.profesion{
+    font-size: 28px;
+    font-weight: 800;
+}
+.container-trayectoria{
+    position: absolute;
+    left: 14%;
+    top: 17%;
+}
+.container-titulos{
+    position: absolute;
+    left: 18%;
+    top: 38%;
+}
+.container-titulo__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+.card-titulo{
+    width: 18rem;
+    transform: translateY(-20px);
+    background-color: white;
+    height: 369px;
+
+
+}
+.img-titulo{
+    width: 100%;
+}
+.card-titulo2{
+    width: 20rem;
+
+    transform: translateY(-68px);
+    height: 26rem;
+    background-color: white;
+
+}
+.card-text__titulo2{
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+    padding-left: 20px;
+
+}
+.card-body__titulo2{
+
+
+}
+.boton-card{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 7px;
+
+}
+.card-title__titulo2{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.card-title__titulo{
+    padding-left: 10px;
+}
+.boton-card2{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.container-etiqueta{
+    position: absolute;
+    top: 0;
+    background-color: #03438a;
+    color: white;
+    width: 69%;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 6px;
+    height: 9%;
+}
+.container-direccion{
+ .container-direccion {
+    display: flex;
+    justify-content: center;
+    background-color: #03438a;
+    position: absolute;
+    bottom: 0px;
+    height: 4%;
+    width: 100%;
+    color: white;
+}
+}
