@@ -1,162 +1,224 @@
-.section{
 
-    position: relative;
+body{
+  font-family: 'Roboto', sans-serif;
 }
-.section-content{
-    display: grid;
-    grid-template-columns: 160px 1fr;
+
+.item-nav{
+  list-style-type: none;
 }
-.container-fondo{
-    align-self: flex-end;
-}
-.fondo{
-    width: 100%;
-    height: 441px;
+
+.container-contactos__content{
+  display: flex;
+  justify-content: flex-end;
+  width: 93%;
+  padding-top: 15px;
 
 }
-.imagen-persona{
-    width: 100%;
-    height: 135px;
-    padding-top: 20px;
-}
-.barra{
-    height: 83vh;
+.container-contactos{
 
-    width: 100%;
-}
-.container-persona{
 
-    z-index: -1;
-    background: #03438a;
-    height: 112px;
-    padding-top: 5px;
+  display: flex;
+  width: 93%;
 }
-.container-navbar{
-    width: 10rem;
-    background: #034389;
+.container-img__persona{
+  background: #03438a;
 }
-.container-contacto__content{
-   display: flex;
-   justify-content: flex-end;
-   position: absolute;
-   right: 0px;
-   padding-top: 15px;
+.img-persona{
+  width: 170px;
+
 }
-.logo-redes__facebook{
-    padding-right: 50px;
+.link-navs{
+  color: white;
 }
-.logo-redes__instagram{
-    padding-right: 50px;
+.link-navs:hover{
+  text-decoration: none;
+  color: white;
+  font-weight: 
+}
+.barra-navegacion{
+
+}
+.btn-blue2{
+  background: #0c4e94;
+  border: 2px solid white;
+  color: white;
+  width: 89%;
+}
+.img-facebook{
+  padding-right: 50px;
+}
+.img-instagram{
+  padding-right: 50px;
 }
 .btn-blue{
-    background: #03438a;
-    color: white;
-    border-radius: 0px;
-    font-size: 16px;
-    padding: .375rem 1.75rem;
+  background: #03438a;
+  color: white;
+  border-radius: 0px;
+  font-size: 16px;
+  padding: .375rem 1.75rem;
 }
-.container-contacto{
-    width: 93%;
-    position: relative;
+.container-contacto {
+  /* width: 98%; */
+  /* position: relative; */
+  position: absolute;
+  top: 0;
+  right: 61px;
 }
-.container-nombre{
-    position: absolute;
-    right: 53%;
-    top: 9%;
-}
-.text-nombre{
-    font-size: 23px;
-    
+.card{
+ width: 20rem;
+ border: none;
+ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
+
+ height: 400px;
+ background-color: white;
+}
+.container-barra{
+  display: grid;
+  grid-template-columns: 170px 3fr 1fr;
+  grid-gap: 50px;
+}
+.container-nombres{
+  align-self: center;
+  height: 60%;
+}
+.card-img{
+  width: 100%;
+}
+.container-cards__content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  transform: translateY(-52px);
+
+}
+.nombres-text{
+  font-size: 20px;
+  color: #03438a;
+  font-weight: 800;
 }
 .profesion{
-    font-size: 28px;
-    font-weight: 800;
+  color:  #03438a;
+  font-weight: normal;
 }
-.container-trayectoria{
-    position: absolute;
-    left: 14%;
-    top: 17%;
+.nombres-text2{
+ color: #03438a;
 }
-.container-titulos{
-    position: absolute;
-    left: 18%;
-    top: 38%;
+.container-navbar__content{
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  grid-gap: 50px;
 }
-.container-titulo__content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
+.barra-navegacion{
+  align-self: center;
+  line-height: 43px;
+  font-size: 20px;
+  position: relative;
+  padding-left: 0px;
+  text-align: center;background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(53,126,199,1) 31%, rgba(34,99,166,1) 61%, rgba(9,63,122,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(31%, rgba(53,126,199,1)), color-stop(61%, rgba(34,99,166,1)), color-stop(100%, rgba(9,63,122,1)));
+  background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(53,126,199,1) 31%, rgba(34,99,166,1) 61%, rgba(9,63,122,1) 100%);
+  background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(53,126,199,1) 31%, rgba(34,99,166,1) 61%, rgba(9,63,122,1) 100%);
+  background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(53,126,199,1) 31%, rgba(34,99,166,1) 61%, rgba(9,63,122,1) 100%);
+  background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(53,126,199,1) 31%, rgba(34,99,166,1) 61%, rgba(9,63,122,1) 100%);
+  padding-top: 12px;
+  padding-bottom: 1px;
+  margin-bottom: 0px;
 }
-.card-titulo{
-    width: 18rem;
-    transform: translateY(-20px);
-    background-color: white;
-    height: 369px;
+.direccion{
+  margin-bottom: 0;
+  color: white;
+}
+.card2{
+  width: 18rem;
+  transform: translateY(44px);
+  background-color: white;
+  height: 355px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
-
+}
+.container-direccion{
+  display: flex;
+  justify-content: center;
+  background:  #03438a;
+}
+.fondo{
+  width: 100%;
+  height: 420px;
+}
+.container-fondo{
+  position: absolute;
+  top:35%;
+  left: 169px;
+  z-index: -1;
 }
 .img-titulo{
-    width: 100%;
+  width: 100%;
 }
 .card-titulo2{
-    width: 20rem;
+  width: 20rem;
 
-    transform: translateY(-68px);
-    height: 26rem;
-    background-color: white;
+
+  height: 26rem;
+  background-color: white;
 
 }
+.img-barra{
+  position: absolute;
+  top: -140px;
+  left: 0;
+  height: 148%;
+  z-index: -1;
+}
+.fa-whatsapp{
+  font-size: 20px;
+}
+
 .card-text__titulo2{
-    font-size: 15px;
-    line-height: 20px;
-    width: 100%;
-    padding-left: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  width: 100%;
+  padding-left: 20px;
 
 }
-.card-body__titulo2{
-
-
+.btn-white{
+  background: white;
+  width: 89%;
+  color: black;
+  font-weight: 800;
 }
 .boton-card{
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 7px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 7px;
 
 }
+.boton-card1{
+ display: flex;
+ justify-content: flex-end;
+ padding-top: 27px;
+}
 .card-title__titulo2{
-    padding-left: 20px;
-    padding-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .card-title__titulo{
-    padding-left: 10px;
+  padding-left: 10px;
 }
 .boton-card2{
-    display: flex;
-    justify-content: flex-end;
-    
+  display: flex;
+  justify-content: flex-end;
+
 
 }
 .container-etiqueta{
-    position: absolute;
-    top: 0;
-    background-color: #03438a;
-    color: white;
-    width: 69%;
-    padding: 0px;
-    padding-left: 20px;
-    padding-top: 6px;
-    height: 9%;
-}
-.container-direccion{
- .container-direccion {
-    display: flex;
-    justify-content: center;
-    background-color: #03438a;
-    position: absolute;
-    bottom: 0px;
-    height: 4%;
-    width: 100%;
-    color: white;
-}
+  position: absolute;
+  top: 0;
+  background-color: #03438a;
+  color: white;
+  width: 69%;
+  padding: 0px;
+  padding-left: 20px;
+  padding-top: 6px;
+  height: 9%;
 }
