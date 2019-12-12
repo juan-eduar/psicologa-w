@@ -95,7 +95,7 @@ body{
   grid-gap: 50px;
 }
 .container-nombres{
- padding-top: 30px;
+  padding-top: 3px;
 }
 .card-img{
   width: 100%;
@@ -114,6 +114,7 @@ body{
 .profesion{
   color:  #03438a;
   font-weight: normal;
+  font-size: 19px;
 }
 .nombres-text2{
  color: #03438a;
@@ -268,7 +269,7 @@ body{
 
 }
 .container-terapias{
-  height: 80vh;
+  height: 82vh;
 }
 .main-general__item:nth-child(1) {
   height: 122vh;
@@ -278,19 +279,18 @@ body{
   width: 62%;
   justify-content: center;
   /* height: 21%; */
-  height: 171px;
+  height: 153px;
   background: white;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 .container-profesional__content{
-  display: flex;
-  justify-content: center;
+
   width: 114%;
 }
 .img-profesional{
   width: 18%;
-  height: 171px;
+  height: 153px;
 }
 .card-body__profesional{
   padding-left: 29px;
@@ -301,13 +301,29 @@ body{
 }
 .card-text__profesional{
   margin-bottom: 0px;
+  font-size: 14px;
 }
 .boton-card2{
   display: flex;
   justify-content: flex-end;
 }
+.boton-card4{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 11px;
+}
 .container-profesional{
-  height: 79vh;
+  height: 106vh;
+}
+
+.card-content{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.card-content2{
+  display: flex;
+  justify-content: center;
 }
 .card-articulos{
   display: flex;
@@ -343,6 +359,12 @@ body{
 }
 .card-text__articulos{
   margin-bottom: 0px;
+  font-size: 14px;
+
+}
+.text-nombres{
+  font-size: 30px;
+  font-weight: 800;
 }
 .btn-blue3{
   padding: 3px;
@@ -355,9 +377,237 @@ body{
   display: flex;
   justify-content: flex-start;
 }
+.container-icono{
+  background-color:  #03438a;
+  width: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 150px;
+}
+.icono-content{
+  display: flex;
+  justify-content: flex-end;
+}
+.img-icono{
+  width: 30%;
+  padding-top: 13px;
+}
+.container-icono2{
+  background-color:  white;
+  width: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 127px;
+
+}
+.img-icono2{
+  width: 30%;
+  padding-top: 13px;
+}
+.text-icono{
+  font-size: 20px;
+  color: white;
+  font-weight: 800;
+}
+.text-icono2{
+  font-size: 20px;
+  color: #03438a;
+  font-weight: 800;
+}
+.container-linea{
+  display: grid;
+  grid-template-columns:  443px 1fr;
+  padding-top: 40px;
+
+}
+/* Timeline */
+.timeline,
+.timeline-horizontal {
+  list-style: none;
+  padding: 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 40px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #03438a;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline .timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline .timeline-item:before,
+.timeline .timeline-item:after {
+  content: "";
+  display: table;
+}
+.timeline .timeline-item:after {
+  clear: both;
+}
+.timeline .timeline-item .timeline-badge {
+  /* color: #03438a; */
+  width: 54px;
+  height: 54px;
+  line-height: 52px;
+  font-size: 22px;
+  text-align: center;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #333;
+  /* border: 3px solid #ffffff; */
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline .timeline-item .timeline-badge i,
+.timeline .timeline-item .timeline-badge .fa,
+.timeline .timeline-item .timeline-badge .glyphicon {
+  top: 2px;
+  left: 0px;
+}
+.timeline .timeline-item .timeline-badge.primary {
+  background-color: #03438a;
+  width: 8%;
+  height: 24px;
+}
+.timeline .timeline-item .timeline-badge.info {
+  width: 8%;
+  height: 24px;
+  background-color: #03438a;
+}
+.timeline .timeline-item .timeline-badge.success {
+ width: 8%;
+ height: 24px;
+ background-color: #03438a;
+}
+.timeline .timeline-item .timeline-badge.warning {
+  width: 8%;
+  height: 24px;
+  background-color: #03438a;
+}
+.timeline .timeline-item .timeline-badge.danger {
+  width: 8%;
+  height: 24px;
+  background-color: #03438a;
+}
+.timeline .timeline-item .timeline-panel {
+  position: relative;
+  width: 46%;
+  float: left;
+  right: 16px;
+  /* border: 1px solid #777; */
+
+}
+
+.timeline .timeline-item .timeline-panel .timeline-title {
+  margin-top: 0;
+  color: inherit;
+  font-size: 18px;
+}
+.timeline .timeline-item .timeline-panel .timeline-body > p,
+.timeline .timeline-item .timeline-panel .timeline-body > ul {
+  margin-bottom: 0;
+}
+.timeline .timeline-item .timeline-panel .timeline-body > p + p {
+  margin-top: 5px;
+}
+.timeline .timeline-item:last-child:nth-child(even) {
+  float: right;
+}
+.timeline .timeline-item:nth-child(even) .timeline-panel {
+  float: right;
+  left: 16px;
+}
+
+.timeline-horizontal {
+  list-style: none;
+  position: relative;
+  padding: 20px 0px 20px 0px;
+  display: inline-block;
+}
+.timeline-horizontal:before {
+  height: 3px;
+  top: auto;
+  bottom: 154px;
+  left: 56px;
+  right: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.timeline-horizontal .timeline-item {
+  display: table-cell;
+  height: 280px;
+  width: 20%;
+  min-width: 320px;
+  float: none !important;
+  padding-left: 0px;
+  padding-right: 20px;
+  margin: 0 auto;
+  vertical-align: bottom;
+  /* border: none !important; */
+}
+.timeline-horizontal .timeline-item .timeline-panel {
+  top: auto;
+  bottom: 151px;
+  display: inline-block;
+  float: none !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 77%;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.timeline-horizontal .timeline-item .timeline-panel2 {
+  top: auto;
+  bottom: 64px;
+  display: inline-block;
+  float: none !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 77%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  
+}
+.timeline-title{
+  font-size: 18px;
+}
+.text-linea{
+  font-size: 14px;
+}
+
+.timeline-horizontal .timeline-item:before,
+.timeline-horizontal .timeline-item:after {
+  display: none;
+}
+.timeline-horizontal .timeline-item .timeline-badge {
+  top: 40%;
+  bottom: 0px;
+  left: 55px;
+  /* color: #03438a; */
+}
+.timeline-horizontal .timeline-item .timeline-badge2 {
+  top: 40%;
+  bottom: 0px;
+  left: 0px;
+  /* color: #03438a; */
+}
 
 
-
+.container-formulario{
+  display: flex;
+  justify-content: flex-end;
+  width: 81%;
+}
 
 
 
